@@ -29,5 +29,7 @@ Then we use user's keywords to find the images through their tags.
 To see the tags, you can run `print_tags()`
 
 To simply use the engine, use function `engine.search_text(["your","keys"])`. By default, program will display images that have the keys as their tags (by default uses operator "and").
+  
   To run this instead with operator "or", do: `engine.search_text(["your","keys"], op="or")`
-  To make the program not display the images, do `engine.search_text(["your","keys"], suppress_images="True")`
+  
+  To make the program display no images, do `engine.search_text(["your","keys"], suppress_images="True")`
