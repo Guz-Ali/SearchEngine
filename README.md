@@ -35,3 +35,6 @@ To simply use the engine, use function `engine.search_text(["your","keys"])`. By
   To run with operator "or" instead, do: `engine.search_text(["your","keys"], op="or")`
   
   To make the program display no images, do: `engine.search_text(["your","keys"], suppress_images="True")`
+  
+## Final notes
+I used the Azure Computer Vision examples as my database but their API could be implemented directly to our program.
