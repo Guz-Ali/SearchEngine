@@ -1,5 +1,5 @@
 # SearchEngine
-Find images through keywords with their tags, and display it.
+Find images through keywords with their tags and display them.
 
 ## Required Libraries
 os, glob, PIL, pickle.
