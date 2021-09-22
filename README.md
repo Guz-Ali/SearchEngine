@@ -4,10 +4,10 @@ Find images through keywords with their tags, and display it.
 ## Required Libraries
 os, glob, PIL, pickle.
 
-to install libraries, do:
+To install libraries, do:
 `pip install *library*`
 
-if you do not have PIL or pickle, simply run this code on terminal: 
+If you do not have PIL or pickle, simply run this code on terminal: 
 `pip install PIL pickle`
 
 ## Test Cases
